@@ -27,7 +27,7 @@ coverage:
       Cyral:
         target: 75
         flags:
-          - cyral
+        - cyral
       Eventstore:
         target: 75
         flags:
@@ -44,6 +44,10 @@ coverage:
         target: 75
         flags:
         - gnatsd_streaming
+      Kernelcare:
+        target: 75
+        flags:
+        - kernelcare
       Lighthouse:
         target: 75
         flags:
@@ -124,10 +128,6 @@ coverage:
         target: 75
         flags:
         - cert_manager
-      Kernelcare:
-        target: 75
-        flags:
-        - kernelcare
       nvml:
         target: 75
         flags:
@@ -136,6 +136,10 @@ coverage:
         target: 75
         flags:
         - pihole
+      pulsar:
+        target: 75
+        flags:
+        - pulsar
       speedtest:
         target: 75
         flags:
@@ -164,8 +168,8 @@ flags:
   cyral:
     carryforward: true
     paths:
-      - cyral/datadog_checks/cyral
-      - cyral/tests
+    - cyral/datadog_checks/cyral
+    - cyral/tests
   eventstore:
     carryforward: true
     paths:
@@ -236,6 +240,11 @@ flags:
     paths:
     - portworx/datadog_checks/portworx
     - portworx/tests
+  pulsar:
+    carryforward: true
+    paths:
+    - pulsar/datadog_checks/pulsar
+    - pulsar/tests
   reboot_required:
     carryforward: true
     paths:
