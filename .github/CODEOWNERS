@@ -25,10 +25,12 @@
 /gremlin/               support@gremlin.com
 /hbase_master/          @everpeace
 /hbase_regionserver/    @everpeace
+/jfrog_platform/        @vinayagg
 /k6/                    @ppcano support@k6.io
 /kernelcare/            @grubberr schvaliuk@cloudlinux.com
 /launchdarkly/          support@launchdarkly.com
 /lacework/              help@datadoghq.com
+/launchdarkly/          support@launchdarkly.com
 /lighthouse/            @ericmustin
 /logstash/              @ervansetiawan ervansetiawan@gmail.com
 /logzio/                @DataDog/agent-integrations
@@ -42,7 +44,8 @@
 /ping/                  @jstanton617
 /pliant/                @hello-pliant hello@pliant.io
 /portworx/              @pault84 paul@portworx.com
-/pulsar/                @zzzming
+/pulsar/                @zzzming ming.luo@kesque.com
+/puma/                  @plasticine
 /rbltracker/            @DataDog/container-integrations
 /reboot_required/       @montdidier support@krugerheavyindustries.com
 /redis_sentinel/        @krasnoukhov

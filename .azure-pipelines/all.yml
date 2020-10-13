@@ -84,6 +84,9 @@ jobs:
     - checkName: pulsar
       displayName: pulsar
       os: linux
+    - checkName: puma
+      displayName: Puma
+      os: linux
     - checkName: reboot_required
       displayName: Reboot Required
       os: linux

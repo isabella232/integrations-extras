@@ -23,7 +23,10 @@
   ],
   "assets": {
     "monitors": {},
-    "dashboards": {},
-    "service_checks": "assets/service_checks.json"
+    "dashboards": {
+      "sigsci": "assets/dashboards/overview.json"
+    },
+    "service_checks": "assets/service_checks.json",
+    "metrics_metadata": "metadata.csv"
   }
 }
